@@ -22,3 +22,5 @@ $\widehat{p}(X)=\widehat{Pr}(Y=1|X)=\dfrac{e^{\widehat\beta_{0}+\widehat\beta_{1
 which returns a value between 0 and 1. Now suppose we add more predictors such as class attendance, hours studies etc, then we will have to use a multiple logistic regression model for $p$ predictors which is simply
 
 $p(X)=Pr(Y=1|X)=\dfrac{e^{\beta_{0}+ \beta_{1}X_{1} + ... + \beta_{p}X_{p}}}{1+e^{\beta_{0}+ \beta_{1}X_{1} + ... + \beta_{p}X_{p}}}$
+
+
